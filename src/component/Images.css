@@ -1,0 +1,50 @@
+.gridBox{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+}
+.bookmark{
+    background: none;
+    color: rgba(240, 248, 255, 0);
+    position: absolute;
+    width: 400px;
+    height: 600px;
+}
+.bookmark:hover{
+    background: rgba(128, 128, 128, 0.055);
+    color: whitesmoke;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 200px;
+}
+.inputtext{
+    width: 500px;
+    margin: 20px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    padding: 3px;
+}
+.searchbtn{
+    background: black;
+    color: white;
+    width: 100px;
+    height: 22px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.bookmarkbtn{
+    background: grey;
+    color: whitesmoke;
+    border: none;
+    width: 120px;
+    height: 28px;
+    cursor: pointer;
+}
